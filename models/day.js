@@ -15,6 +15,10 @@ const daySchema = new Schema({
         type: Boolean,
         required: false,
         default: false
+    },
+    _id: {
+        type: String,
+        required: true
     }
 });
 
