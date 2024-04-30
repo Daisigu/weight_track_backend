@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-
 const dayRoutes = require('./routes/day');
 const express = require('express');
 const cors = require('cors');
