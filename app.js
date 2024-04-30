@@ -11,4 +11,4 @@ app.use(express.json());
 app.use(cors());
 db()
 app.use(dayRoutes);
-module.exports = app;
+app.listen(3000, () => console.log('Local app listening on port 3000!'));
