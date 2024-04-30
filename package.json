@@ -2,11 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "netlify-lambda build express",
-    "start": "nodemon server-local.js"
-  },
+  "main": "app.js",
   "author": "",
   "license": "ISC",
   "dependencies": {
