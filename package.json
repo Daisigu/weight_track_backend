@@ -4,20 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "netlify-lambda build express",
+    "start": "nodemon server-local.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^20.12.7",
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongoose": "^8.3.2",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
+    "netlify-lambda": "^2.0.16",
+    "nodemon": "^3.1.0",
+    "serverless-http": "^3.2.0"
   }
 }

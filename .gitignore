@@ -1,2 +1,7 @@
 /node_modules/
+functions
 .env
+/.env
+.idea
+# Local Netlify folder
+.netlify
